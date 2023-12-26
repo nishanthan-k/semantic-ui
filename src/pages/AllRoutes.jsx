@@ -10,6 +10,9 @@ const AllRoutes = () => {
       <Link to="container">
         <Button content="ContainerRoutes" />
       </Link>
+      <Link to="flag">
+        <Button content="FlagRoutes" />
+      </Link>
     </div>
   )
 }

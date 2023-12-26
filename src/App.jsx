@@ -8,6 +8,8 @@ import IconBtn from "./elements/Buttons/IconBtn"
 import GroupBtn from "./elements/Buttons/GroupBtn"
 import ContainerRoutes from "./routes/ContainerRoutes"
 import ContainerBox from "./elements/Container/ContainerBox"
+import FlagRoutes from "./routes/FlagRoutes"
+import FlagComponent from "./elements/Flag/FlagComponent"
 
 
 const App = () => {
@@ -26,6 +28,9 @@ const App = () => {
 
           <Route exact path="/container" element={<ContainerRoutes />} />
           <Route exact path="/container/ContainerBox" element={<ContainerBox />} />
+
+          <Route exact path="/flag" element={<FlagRoutes />} />
+          <Route exact path="/flag/Flag" element={<FlagComponent />} />
         </Routes>
       </BrowserRouter>
     </div>
