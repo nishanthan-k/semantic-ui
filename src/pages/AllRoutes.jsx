@@ -7,6 +7,9 @@ const AllRoutes = () => {
       <Link to="button">
         <Button content="ButtonRoutes" />
       </Link>
+      <Link to="container">
+        <Button content="ContainerRoutes" />
+      </Link>
     </div>
   )
 }

@@ -3,6 +3,12 @@ import AllRoutes from "./pages/AllRoutes"
 import ButtonRoutes from "./routes/ButtonRoutes"
 import GeneralBtn from "./elements/Buttons/GeneralBtn"
 import AnimatedBtn from "./elements/Buttons/AnimatedBtn"
+import LabeledBtn from "./elements/Buttons/LabeledBtn"
+import IconBtn from "./elements/Buttons/IconBtn"
+import GroupBtn from "./elements/Buttons/GroupBtn"
+import ContainerRoutes from "./routes/ContainerRoutes"
+import ContainerBox from "./elements/Container/ContainerBox"
+
 
 const App = () => {
   return (
@@ -14,6 +20,12 @@ const App = () => {
           <Route exact path="/button" element={<ButtonRoutes />} />
           <Route exact path="/button/GeneralBtn" element={<GeneralBtn />} />
           <Route exact path="/button/AnimatedBtn" element={<AnimatedBtn />} />
+          <Route exact path="/button/LabeledBtn" element={<LabeledBtn />} />
+          <Route exact path="/button/IconBtn" element={<IconBtn />} />
+          <Route exact path="/button/GroupBtn" element={<GroupBtn />} />
+
+          <Route exact path="/container" element={<ContainerRoutes />} />
+          <Route exact path="/container/ContainerBox" element={<ContainerBox />} />
         </Routes>
       </BrowserRouter>
     </div>
